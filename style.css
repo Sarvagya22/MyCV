@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+body {
+  /* transition:all 1s; */
+  width: 100%;
+  background: #1b0c0c;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #1b1b1bb9;
+  /* border: 2px solid white; */
+  animation: navbar 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  transition-property: background-color;
+  transition-duration: 1s;
+  opacity: 0.9;
+  position: sticky;
+}
+
+@keyframes navbar {
+  to {
+    margin-top: 0px;
+  }
+
+  from {
+    margin-top: 500px;
+  }
+}
+
+.logo {
+  padding: 0.7rem 1rem;
+  margin: 0px 10px;
+}
+
+.menu {
+  display: flex;
+  /* border: 2px solid white; */
+  /* position: absolute; */
+  margin-left: auto;
+  list-style: none;
+  padding: 1rem 2rem;
+  /* margin: 10px; */
+}
+
+/* .menu li a{
+    background-color: black;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 178, 178, 0.436);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  } */
+.a {
+  background-color: black;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 178, 178, 0.436);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.items {
+  padding: 0.4rem 0.5rem;
+}
+
+.a:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+}
+
+.middle {
+  display: flex;
+  /* border: 2px solid white; */
+  padding: 0rem 1rem;
+  margin: 3px 10px;
+}
+
+.image {
+  position: relative;
+  margin-left: auto;
+  margin-top: -40px;
+}
+
+.myimg {
+  width: 339px;
+  height: 481px;
+  padding: 1rem;
+  margin: -35px 33px;
+}
+
+.about {
+  position: absolute;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.about h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.about p {
+  display: none;
+  text-align: center;
+}
+
+#btn {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn:hover {
+  /* font-family: 'Rubik Moonrocks', cursive; */
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+#btn2 {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn2:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+#btn3 {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#btn3:hover {
+  background-color: rgb(255, 205, 205);
+  color: black;
+  border: 2px solid rgb(255, 159, 159);
+  transform: scale(1.1);
+}
+.Projects {
+  position: absolute;
+  margin-top: 117px;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.Projects h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  /* justify-items: center; */
+  justify-content: center;
+}
+.footer p {
+  /* align-items: center; */
+  color: aliceblue;
+  font-size: 10px;
+  margin-left: -100px;
+}
+
+.Projects p {
+  display: none;
+  text-align: center;
+}
+.cwm {
+  position: absolute;
+  margin-top: 235px;
+  /* border: 2px solid white; */
+  color: white;
+  width: 50%;
+}
+
+.cwm h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.cwm p {
+  display: none;
+  text-align: center;
+}
+.a2{
+  text-decoration: none;
+  color: rgb(255, 167, 167);
+  transition-duration: 0.5s;
+}
+#para2{
+margin-top: -87px;
+}
+#para3{
+  margin-top: -137px;
+  }
+.a2:hover{
+  color: white;
+  transform: scale(1.1);
+}
+#me2{
+  display: none;
+}
+#me3{
+  display: none;
+}
+#me4{
+  display: none;
+}
+.myimg{
+  transition-duration: 1s;
+}
+.myimg:hover{
+transform: scale(1.05);
+cursor: pointer;
+/* transform: rotate(15deg); */
+}
+.logo1{
+  transition-duration: 0.2s;
+}
+.logo1:hover{
+  transform: scale(1.1);
+  transform: rotate(-5deg);
+  cursor: pointer;
+}
+
+#intro{
+  display: flex;
+  width: 50%;
+  /* border: 2px solid white; */
+}
+#intro h1 {
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+  margin-left: 40px;
+  /* border: 2px solid white; */
+  color: aliceblue;
+  font-size: 41px;
+  transition-duration: 0.5s;
+}
+#intro h1:hover {
+ color:rgb(255, 167, 167);
+ transform: scale(1.1);
+ cursor: pointer;
+}
+.skills_bar {
+  width: 20%;
+  margin: 10px 164px;
+  /* border: 2px solid red; */
+  display: block;
+  height: 5px;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 54%;
+  transition-duration: 0.5s;
+}
+.instagram{
+margin: 5px 5px;
+padding: 0rem 1rem;
+}
+.instagram img{
+  width: 40px;
+  height: 40px;
+}
+.fb img {
+  width: 66px;
+  height: 55px;
+  margin-top: -6px;
+}
+.instagram img:hover{
+  transform: scale(1.1);
+}
+#cv {
+  display: flex;
+  /* margin: 20px -1px; */
+  justify-content: center;
+  margin-top: 53px;
+  width: 55%;
+}
+#cv img {
+    width: 114px;
+    transition-duration: 0.5s;
+}
+#cv img:hover{
+  transform: scale(1.02);
+}
+.line1 {
+  border: 2px solid white;
+  display: flex;
+  width: 292px;
+  height: 19px;
+  background-color: red;
+  margin-top: -74px;
+  position: absolute;
+}
+.line2 {
+  border: 2px solid white;
+  display: inline-block;
+  width: 65px;
+  height: 19px;
+  margin-left: 403px;
+  background-color: red;
+  margin-top: -74px;
+  position: absolute;
+}
+.down a{
+  text-decoration: none;
+  color: wheat;
+  transition-duration: 0.5s;
+}
+.down {
+  position: absolute;
+  display: flex;
+  margin-top: 56px;
+  margin-left: 3px;
+  color: wheat;
+  transition-duration: 0.5s;
+}
+.down:hover{
+  transform: scale(1.02);
+}
+.skill{
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  margin-left: -38px;
+}
+.skill h1 {
+  display: block;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  
+}
+.container1 {
+  padding: 4rem;
+  display: flex;
+  margin-left: 57px;
+  margin-top: 23px;
+}
+.container1 h2 {
+  color: white;
+  align-items: center;
+  display: flex;
+}
+.container1 img{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  width: 100px;
+  height: 100px;
+}
+.js img{
+  width: 85px;
+  height: 100px;
+}
+.container1 img:hover{
+  transform: scale(1.03);
+}
